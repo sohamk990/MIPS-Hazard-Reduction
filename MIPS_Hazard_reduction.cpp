@@ -5,6 +5,11 @@
     IMT2018505 AVIK BHATNAGAR
 */
 
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
+#pragma GCC optimize("unroll-loops", "omit-frame-pointer","inline","Ofast")
+#pragma GCC option("arch=native","tune=native","no-zero-upper")
+#pragma GCC optimization ("O3")
+
 #include<bits/stdc++.h>
 using namespace std;
 
